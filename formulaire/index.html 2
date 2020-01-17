@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <title>formulaire²</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<form method="post" action="traitement.php">
+<fieldset>
+     <legend>Vos coordonnées</legend> <!-- Titre du fieldset -->
+    <label for="Nom & Prenom">Nom & Prenom</label>
+    <input type="text" name="Nom & Prenom" id="Nom & Prenom" />
+
+    <label for="Age">votre Age </label>
+    <input type="number"id="age" placeholder="Votre Age" min="17"max="25"Required>
+
+    <label for="date de naissance">date de naissance</label>
+    <input type="texte" name="date de naissance" id="date de naissance" />
+
+<label for="Adresse & numero de télephone">Adresse & numero de télephone</label>
+<input type="texte" name="Adresse & numero de télephone" id="Adresse & numero de télephone" />
+
+<label>Adresse Email</label> : <input type="text"
+name="Adresse Email"/>
+</fieldset>
+
+
+   <fieldset>
+   <legend><h1>formulaire</h1></legend> 
+
+   
+    <p>Veuillez renseigner le formulaire</p>
+  
+    <p>
+        <label for="Nom & Prenom">Nom & Prenom:</label>
+        <input type="text" name="Nom & Prenom" id="Nom & Prenom"placeholder="
+        Veuillez renseigner ici " size="30" maxlength="10" />
+        </p>
+        
+       
+        <p>
+        <label for="Age">Votre Age(de 17 a 25 ans)*</label>
+        <input type="number"id="age" placeholder="Votre Age" min="17"max="25"Required>
+        <span>ans</span><br>
+        <input type="submit" value="Evoyer">
+        </p>
+            
+
+            <p>
+                <label for="date de naissance">date de naissance:</label>
+                <input type="text" name="date de naissance" id="date de naissance"placeholder="
+                Veuillez renseigner ici " size="30" maxlength="10" />
+                </p>
+                <p>
+                    <label for="Adresse & numero de télephone">Adresse & numero de télephone:</label>
+                    <input type="text" name="Adresse & numero de télephone" id="Adresse & numero de télephone"placeholder="
+                    Veuillez renseigner ici " size="30" maxlength="10" />
+                    </p>
+    
+             <form method="post" action="traitement.php">
+                    <p>
+                    <label>Adresse Email</label> : <input type="text"
+                    name="Adresse Email"/>
+                    </p>
+                    <p>mot de passe</p><input type="password"name="p">
+
+            <input type="radio" nom="gender" value ="homme" checked="homme">homme<br>
+            <input type="radio" nom="gender" value ="femme" checked="femme">femme<br>         
+                
+              
+            <p>
+<label for="Dernier diplome ">Dernier diplome</label>
+
+<select>
+<option value="aucun" ></option>
+<option value="Bac+2" ></option>
+<option value="Bac+3" ></option>
+<option value="Master" ></option>
+
+</select>
+   </p>
+
+   <p>
+       <label for="center d'intrest">center d'intéret</label><br>
+       <input type="radio" name="choise">dance<input type="radio"name=choise">Music<input type="radio"name="choise">sport>
+
+         <input type="textarea">
+   <libellé>formulez votre demande</libellé>
+</input>
+        
+        
+        </textarea>
+</fieldset>
+</form>>
+ 
+</body>
+
+
+
+</html>
